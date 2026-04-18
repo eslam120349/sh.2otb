@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { supabase } from '../integrations/supabase/client';
-import { User, Phone, TrendingUp, CheckCircle, XCircle, BookOpen, MessageSquare, AlertCircle } from 'lucide-react';
+import { User, TrendingUp, CheckCircle, XCircle, BookOpen, MessageSquare, AlertCircle } from 'lucide-react';
 
 const ParentPortal = () => {
   const { id } = useParams<{ id: string }>();
